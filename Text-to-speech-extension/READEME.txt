@@ -1,0 +1,92 @@
+Text-to-Speech Chrome Extension
+***************************************************
+Overview
+
+This Chrome extension allows users to highlight text on a webpage, right-click, and select the extension to read the text aloud. Users can also control the speech rate and voice type, as well as pause and stop the speech.
+
+***************************************************
+
+Features
+
+Text-to-Speech: Reads aloud any selected text from a webpage.
+
+Context Menu Integration: Right-click after highlighting text to activate speech.
+
+Speech Rate & Voice Control: Adjust speed and change voices.
+
+Pause & Stop Controls: Easily pause or stop the speech.
+
+***************************************************
+
+Installation Guide
+
+Download the Extension Files
+
+Ensure you have all necessary files: manifest.json, background.js, settings.html, settings.js, and icon files (icon16.png, icon48.png, icon128.png).
+
+Load the Extension in Chrome
+
+Open Chrome and navigate to chrome://extensions/.
+
+Enable Developer mode (toggle in the upper-right corner).
+
+Click Load unpacked and select the extension folder.
+
+The extension should now appear in the list.
+
+***************************************************
+
+How to Use the Extension
+
+Step 1: Highlight Text
+
+Select the text on any webpage that you want to be read aloud.
+
+Step 2: Right-Click
+
+Right-click the highlighted text and choose "Read Aloud" from the context menu.
+
+Step 3: Listen
+
+The extension will start reading the text aloud using the selected voice and speed settings.
+
+Step 4: Adjust Settings (Optional)
+
+Click on the extension icon to open settings.
+
+Adjust the speech rate and change the voice.
+
+Use the Pause or Stop buttons to control playback.
+
+***************************************************
+
+Troubleshooting
+
+Issue: "Could not load manifest" error
+
+Ensure that manifest.json is correctly formatted and includes a valid "options_page": "settings.html" entry.
+
+Issue: Icons not displaying correctly
+
+Ensure that icon16.png, icon48.png, and icon128.png exist in the extension folder and match the names in manifest.json.
+
+Issue: Extension not working
+
+Open chrome://extensions/, enable Developer Mode, and check the Console (F12) for errors.
+
+Try reloading the extension.
+
+***************************************************
+
+Future Enhancements
+
+Add support for multiple languages.
+
+Implement a playback progress indicator.
+
+***************************************************
+
+Author
+
+Created by Nick, Chat, George, Peter, & Tom (4/4/2025)
+
